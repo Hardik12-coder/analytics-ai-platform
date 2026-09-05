@@ -1,0 +1,10 @@
+pandas
+numpy
+plotly
+fastapi
+uvicorn
+python-multipart
+anthropic
+google-genai
+openai
+pytest
