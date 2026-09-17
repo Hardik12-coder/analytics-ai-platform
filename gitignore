@@ -1,0 +1,42 @@
+# Secrets & credentials — NEVER commit these
+.env
+.env.*
+*.key
+*.pem
+secrets/
+credentials/
+
+# API keys / config that might contain them
+config.local.py
+settings.local.py
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+venv/
+env/
+.venv/
+build/
+dist/
+
+# Databases (local dev data shouldn't be public)
+*.sqlite3
+*.db
+
+# Uploaded user data — never commit real or test business data with real-looking numbers
+/uploads/
+*.csv
+!sample_sales.csv
+*.xlsx
+!sample_*.xlsx
+
+# OS/editor junk
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log

@@ -1,0 +1,26 @@
+[project]
+name = "analytics-ai-platform"
+version = "0.1.0"
+description = "Deterministic analytics core with an LLM-safe insight payload."
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic",
+    "fastapi",
+    "google-genai",
+    "numpy",
+    "openai",
+    "pandas",
+    "plotly",
+    "python-multipart",
+    "together",
+    "uvicorn",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
