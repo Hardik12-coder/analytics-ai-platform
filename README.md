@@ -139,15 +139,4 @@ summary = generate_insight(stats_dict, provider="claude")
 
 Supported providers are `claude`, `gemini`, `openai`, and `llama`. The `llama` provider uses a hosted Together AI inference API, not self-hosted model weights. The provider and model are parameters so paid tiers can use stronger models later without rewriting the app.
 
-## Learning Path
 
-You do not need to know machine learning to build the first version.
-
-The first version should use:
-
-- Python for calculations
-- FastAPI for the backend
-- Plotly for charts
-- a pre-trained LLM API for summaries
-
-Training a custom model can come much later, after the product has real users and real examples of what good insight summaries should look like.
